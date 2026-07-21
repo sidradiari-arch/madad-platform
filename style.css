@@ -137,3 +137,40 @@ font-weight:600;
 nav a:hover{
 opacity:.7;
 }
+nav{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:20px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+
+nav a{
+text-decoration:none;
+color:#222;
+font-weight:600;
+}
+
+nav a:hover{
+opacity:.7;
+}
+
+.btn{
+display:inline-block;
+padding:12px 24px;
+background:#a6b394;
+color:white;
+text-decoration:none;
+border-radius:10px;
+border:none;
+cursor:pointer;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 4px 15px rgba(0,0,0,.05);
+margin-bottom:20px;
+}
