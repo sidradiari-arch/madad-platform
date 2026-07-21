@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>أوان | المفكرات الرقمية</title>
+<title>أوان للمفكرات الرقمية</title>
 
 <style>
+
 *{
 margin:0;
 padding:0;
@@ -18,55 +20,61 @@ background:#f8f8f5;
 color:#222;
 }
 
-header{
+nav{
 background:white;
 padding:20px;
-box-shadow:0 2px 10px rgba(0,0,0,.05);
 text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+color:#222;
+font-weight:bold;
+}
+
+header{
+text-align:center;
+padding:80px 20px;
 }
 
 .logo{
-width:100px;
+width:140px;
+margin-bottom:20px;
+}
+
+header h1{
+font-size:42px;
 margin-bottom:15px;
 }
 
-.hero{
-padding:70px 20px;
-text-align:center;
-}
-
-.hero h1{
-font-size:40px;
-margin-bottom:15px;
-}
-
-.hero p{
-font-size:18px;
+header p{
 max-width:700px;
 margin:auto;
-line-height:1.8;
+line-height:2;
 color:#666;
 }
 
-.btn{
+.button{
 display:inline-block;
 margin-top:25px;
-padding:14px 35px;
-background:#92a285;
+padding:14px 30px;
+background:#a3b295;
 color:white;
 text-decoration:none;
-border-radius:10px;
+border-radius:12px;
 }
 
 .section{
-padding:60px 20px;
-max-width:1100px;
+max-width:1000px;
 margin:auto;
+padding:60px 20px;
 }
 
 .cards{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
 gap:20px;
 margin-top:30px;
 }
@@ -74,127 +82,118 @@ margin-top:30px;
 .card{
 background:white;
 padding:25px;
-border-radius:15px;
+border-radius:18px;
 box-shadow:0 4px 15px rgba(0,0,0,.05);
 }
 
 .card h3{
 margin-bottom:10px;
 }
-<section class="section">
 
-<h2>الأسئلة الشائعة</h2>
-
-<div class="card">
-<h3>كيف أستلم المنتج بعد الشراء؟</h3>
-<p>
-يتم إرسال المنتج الرقمي إلى البريد الإلكتروني المسجل عند إتمام الطلب.
-</p>
-</div>
-
-<div class="card">
-<h3>هل المنتجات رقمية أم مطبوعة؟</h3>
-<p>
-جميع منتجات أوان رقمية ويتم تحميلها إلكترونياً.
-</p>
-</div>
-
-<div class="card">
-<h3>هل يمكن استخدام المنتجات أكثر من مرة؟</h3>
-<p>
-نعم، يمكن استخدام المنتج وفق سياسة الاستخدام الخاصة به.
-</p>
-</div>
-
-<div class="card">
-<h3>متى تتوفر المنتجات؟</h3>
-<p>
-سيتم إطلاق أول مجموعة من المفكرات الرقمية والتقاويم الدراسية قريباً.
-</p>
-</div>
-
-<div class="card">
-<h3>كيف أتواصل مع أوان؟</h3>
-<p>
-عبر حساب X الرسمي: @shopawaan
-</p>
-</div>
-
-</section>
 footer{
 text-align:center;
 padding:30px;
 background:white;
 margin-top:50px;
 }
+
 </style>
 </head>
 
 <body>
 
-<header>
-<img src="logo.png" class="logo">
-<h2>أوان للمفكرات الرقمية</h2>
-</header>
+<nav>
+<a href="index.html">الرئيسية</a>
+<a href="products.html">المنتجات</a>
+<a href="https://x.com/shopawaan">X</a>
+</nav>
 
-<section class="hero">
-<h1>نظّم وقتك في أوانه</h1>
+<header>
+
+<img src="logo.png" class="logo">
+
+<h1>أوان للمفكرات الرقمية</h1>
+
 <p>
-منصة متخصصة في المفكرات الرقمية والقوالب الإنتاجية
-لمساعدتك على التخطيط وإدارة المهام وتحقيق أهدافك بسهولة.
+منصة متخصصة في المفكرات الرقمية والتقاويم الدراسية المصممة لمساعدتك على التخطيط والتنظيم وتحقيق أهدافك.
 </p>
 
-<a href="#" class="btn">تصفح المنتجات</a>
-</section>
+<a href="products.html" class="button">
+تصفح المنتجات
+</a>
+
+</header>
 
 <section class="section">
-<h2>ماذا نقدم؟</h2>
+
+<h2>منتجاتنا</h2>
 
 <div class="cards">
 
 <div class="card">
-<h3>مفكرات رقمية</h3>
-<p>مفكرات احترافية للاستخدام اليومي والأسبوعي والشهري.</p>
-</div>
-
-<div class="card">
-<h3>منظمات مهام</h3>
-<p>قوالب تساعدك على ترتيب الأولويات ومتابعة الإنجاز.</p>
-</div>
-
-<div class="card">
-<h3>تصاميم عربية أنيقة</h3>
-<p>واجهة مريحة وهوية بصرية تناسب المستخدم العربي.</p>
-</div>
-<div class="card">
-<h3>التنفيذ حسب الطلب</h3>
+<h3>المفكرات الرقمية</h3>
 <p>
-تصميم مفكرات وقوالب رقمية مخصصة حسب احتياج العميل.
+مفكرات رقمية مصممة لتنظيم المهام والأهداف والتخطيط اليومي.
 </p>
 </div>
+
+<div class="card">
+<h3>التقاويم الدراسية</h3>
+<p>
+تقاويم دراسية تساعد على تنظيم الدراسة والاختبارات والمتابعة الأكاديمية.
+</p>
 </div>
+
+</div>
+
 </section>
 
 <section class="section">
-<h2>لماذا أوان؟</h2>
-<p style="line-height:2;">
-لأن لكل هدف أوان، ولكل إنجاز تنظيم.
-نصمم منتجات رقمية عملية تساعدك على تحويل أفكارك إلى خطط واضحة.
-</p>
-</section>
-<section class="section">
+
 <h2>رؤيتنا</h2>
 
-<p style="font-size:22px;line-height:2;">
-في أوان نؤمن أن التنظيم ليس مهمة إضافية،
-بل أسلوب حياة يساعد على تحويل الأفكار إلى إنجازات.
-لذلك نصمم مفكرات رقمية وتقاويم دراسية عملية وبسيطة
-تلائم المستخدم العربي.
+<p style="line-height:2;font-size:20px;">
+في أوان نؤمن أن التنظيم ليس مهمة إضافية، بل أسلوب حياة يساعد على تحويل الأفكار إلى إنجازات.
 </p>
 
 </section>
+
+<section class="section">
+
+<h2>الأسئلة الشائعة</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>كيف أستلم المنتج؟</h3>
+<p>يصل المنتج إلى البريد الإلكتروني بعد الشراء.</p>
+</div>
+
+<div class="card">
+<h3>هل المنتجات رقمية؟</h3>
+<p>نعم، جميع المنتجات رقمية بالكامل.</p>
+</div>
+
+<div class="card">
+<h3>متى تتوفر المنتجات؟</h3>
+<p>سيتم إطلاق المنتجات قريباً.</p>
+</div>
+
+<div class="card">
+<h3>كيف أتواصل مع أوان؟</h3>
+<p>@shopawaan</p>
+</div>
+
+</div>
+
+</section>
+
 <footer>
-© 2026 أوان للمفكرات الرقمية
+
+<p>أوان للمفكرات الرقمية</p>
+
+<p>© 2026 جميع الحقوق محفوظة</p>
+
 </footer>
 
 </body>
