@@ -5,99 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>أوان للمفكرات الرقمية</title>
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Tahoma,sans-serif;
-}
-
-body{
-background:#f8f8f5;
-color:#222;
-}
-
-nav{
-background:white;
-padding:20px;
-text-align:center;
-box-shadow:0 2px 10px rgba(0,0,0,.05);
-}
-
-nav a{
-margin:0 15px;
-text-decoration:none;
-color:#222;
-font-weight:bold;
-}
-
-header{
-text-align:center;
-padding:80px 20px;
-}
-
-.logo{
-width:140px;
-margin-bottom:20px;
-}
-
-header h1{
-font-size:42px;
-margin-bottom:15px;
-}
-
-header p{
-max-width:700px;
-margin:auto;
-line-height:2;
-color:#666;
-}
-
-.button{
-display:inline-block;
-margin-top:25px;
-padding:14px 30px;
-background:#a3b295;
-color:white;
-text-decoration:none;
-border-radius:12px;
-}
-
-.section{
-max-width:1000px;
-margin:auto;
-padding:60px 20px;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:20px;
-margin-top:30px;
-}
-
-.card{
-background:white;
-padding:25px;
-border-radius:18px;
-box-shadow:0 4px 15px rgba(0,0,0,.05);
-}
-
-.card h3{
-margin-bottom:10px;
-}
-
-footer{
-text-align:center;
-padding:30px;
-background:white;
-margin-top:50px;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -105,56 +13,57 @@ margin-top:50px;
 <nav>
 <a href="index.html">الرئيسية</a>
 <a href="products.html">المنتجات</a>
-<a href="https://x.com/shopawaan">X</a>
+<a href="about.html">من نحن</a>
+<a href="contact.html">تواصل معنا</a>
+<a href="login.html">تسجيل الدخول</a>
 </nav>
 
-<header>
+<header class="hero">
 
-<img src="logo.png" class="logo">
+<img src="logo.png" alt="شعار أوان" class="logo">
 
 <h1>أوان للمفكرات الرقمية</h1>
 
 <p>
-منصة متخصصة في المفكرات الرقمية والتقاويم الدراسية المصممة لمساعدتك على التخطيط والتنظيم وتحقيق أهدافك.
+منصة عربية متخصصة في المفكرات الرقمية والتقاويم الدراسية
+لمساعدتك على التخطيط والتنظيم وتحقيق أهدافك.
 </p>
 
-<a href="products.html" class="button">
-تصفح المنتجات
+<a href="products.html" class="btn">
+استعرض المنتجات
 </a>
 
 </header>
 
 <section class="section">
 
-<h2>منتجاتنا</h2>
-
-<div class="cards">
+<h2>ماذا نقدم؟</h2>
 
 <div class="card">
 <h3>المفكرات الرقمية</h3>
 <p>
-مفكرات رقمية مصممة لتنظيم المهام والأهداف والتخطيط اليومي.
+مفكرات عملية تساعدك على تنظيم المهام والأهداف اليومية.
 </p>
 </div>
 
 <div class="card">
 <h3>التقاويم الدراسية</h3>
 <p>
-تقاويم دراسية تساعد على تنظيم الدراسة والاختبارات والمتابعة الأكاديمية.
+أدوات رقمية لمتابعة الدراسة والاختبارات والخطط الأكاديمية.
 </p>
-</div>
-
 </div>
 
 </section>
 
 <section class="section">
 
-<h2>رؤيتنا</h2>
+<h2>لماذا أوان؟</h2>
 
-<p style="line-height:2;font-size:20px;">
-في أوان نؤمن أن التنظيم ليس مهمة إضافية، بل أسلوب حياة يساعد على تحويل الأفكار إلى إنجازات.
+<div class="card">
+<p>
+تصميم عربي أنيق، تجربة بسيطة، ومنتجات رقمية مصممة لتبقى معك أينما كنت.
 </p>
+</div>
 
 </section>
 
@@ -162,28 +71,19 @@ margin-top:50px;
 
 <h2>الأسئلة الشائعة</h2>
 
-<div class="cards">
-
 <div class="card">
 <h3>كيف أستلم المنتج؟</h3>
-<p>يصل المنتج إلى البريد الإلكتروني بعد الشراء.</p>
+<p>يتم إرسال المنتج الرقمي إلى البريد الإلكتروني بعد الشراء.</p>
 </div>
 
 <div class="card">
 <h3>هل المنتجات رقمية؟</h3>
-<p>نعم، جميع المنتجات رقمية بالكامل.</p>
+<p>نعم، جميع منتجات أوان رقمية بالكامل.</p>
 </div>
 
 <div class="card">
-<h3>متى تتوفر المنتجات؟</h3>
-<p>سيتم إطلاق المنتجات قريباً.</p>
-</div>
-
-<div class="card">
-<h3>كيف أتواصل مع أوان؟</h3>
-<p>@shopawaan</p>
-</div>
-
+<h3>كيف أتواصل معكم؟</h3>
+<p>awaanteam@gmail.com</p>
 </div>
 
 </section>
@@ -192,17 +92,11 @@ margin-top:50px;
 
 <p>أوان للمفكرات الرقمية</p>
 
+<p>awaanteam@gmail.com</p>
+
 <p>© 2026 جميع الحقوق محفوظة</p>
 
 </footer>
 
 </body>
-  <nav>
-<a href="index.html">الرئيسية</a>
-<a href="products.html">المنتجات</a>
-<a href="about.html">من نحن</a>
-<a href="contact.html">تواصل معنا</a>
-<a href="faq.html">الأسئلة الشائعة</a>
-<a href="login.html">تسجيل الدخول</a>
-  </nav>
 </html>
