@@ -119,3 +119,21 @@ text-decoration:none;
 border-radius:8px;
 margin-top:15px;
   }
+nav{
+display:flex;
+justify-content:center;
+gap:25px;
+padding:20px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+
+nav a{
+text-decoration:none;
+color:#222;
+font-weight:600;
+}
+
+nav a:hover{
+opacity:.7;
+}
